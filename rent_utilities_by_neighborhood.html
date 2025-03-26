@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "stroke": null}, "axisX": {"labelAngle": -40}, "title": {"anchor": "start", "color": "black", "fontSize": 18}}, "data": {"name": "data-ac03c57e41f63c7eecf440f7dad4a718"}, "mark": {"type": "bar"}, "background": "#FFFFFF", "encoding": {"color": {"field": "Cost Type", "scale": {"domain": ["Rent", "Utilities"], "range": ["#A8D5BA", "#5EAD90"]}, "title": "Cost Type", "type": "nominal"}, "tooltip": [{"field": "Neighborhood", "type": "nominal"}, {"field": "Cost Type", "type": "nominal"}, {"field": "Cost", "type": "quantitative"}], "x": {"field": "Neighborhood", "sort": ["South Boston", "West End (residential area near the North End and TD Garden)", "North End", "Waterfront", "Seaport District", "Beacon Hill", "The Fenway/Kenmore", "Downtown", "Mission Hill", "Jamaica Plain (JP)", "Roxbury", "BackBay"], "title": "Neighborhood", "type": "nominal"}, "y": {"field": "Cost", "stack": "zero", "title": "Average Monthly Housing Cost", "type": "quantitative"}}, "title": "Average Rent and Utility Costs by Neighborhood", "width": 750, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-ac03c57e41f63c7eecf440f7dad4a718": [{"Neighborhood": "BackBay", "Cost Type": "Rent", "Cost": 5357.142857142857}, {"Neighborhood": "BackBay", "Cost Type": "Utilities", "Cost": 146.42857142857142}, {"Neighborhood": "Beacon Hill", "Cost Type": "Rent", "Cost": 3833.3333333333335}, {"Neighborhood": "Beacon Hill", "Cost Type": "Utilities", "Cost": 175.0}, {"Neighborhood": "Downtown", "Cost Type": "Rent", "Cost": 4409.090909090909}, {"Neighborhood": "Downtown", "Cost Type": "Utilities", "Cost": 140.0}, {"Neighborhood": "Jamaica Plain (JP)", "Cost Type": "Rent", "Cost": 4500.0}, {"Neighborhood": "Jamaica Plain (JP)", "Cost Type": "Utilities", "Cost": 150.0}, {"Neighborhood": "Mission Hill", "Cost Type": "Rent", "Cost": 4318.181818181818}, {"Neighborhood": "Mission Hill", "Cost Type": "Utilities", "Cost": 246.25}, {"Neighborhood": "North End", "Cost Type": "Rent", "Cost": 2833.3333333333335}, {"Neighborhood": "North End", "Cost Type": "Utilities", "Cost": 158.33333333333334}, {"Neighborhood": "Roxbury", "Cost Type": "Rent", "Cost": 5000.0}, {"Neighborhood": "Roxbury", "Cost Type": "Utilities", "Cost": 160.71428571428572}, {"Neighborhood": "Seaport District", "Cost Type": "Rent", "Cost": 3500.0}, {"Neighborhood": "Seaport District", "Cost Type": "Utilities", "Cost": 175.0}, {"Neighborhood": "South Boston", "Cost Type": "Rent", "Cost": 2500.0}, {"Neighborhood": "South Boston", "Cost Type": "Utilities", "Cost": 175.0}, {"Neighborhood": "The Fenway/Kenmore", "Cost Type": "Rent", "Cost": 3934.782608695652}, {"Neighborhood": "The Fenway/Kenmore", "Cost Type": "Utilities", "Cost": 322.5}, {"Neighborhood": "Waterfront", "Cost Type": "Rent", "Cost": 2833.3333333333335}, {"Neighborhood": "Waterfront", "Cost Type": "Utilities", "Cost": 766.6666666666666}, {"Neighborhood": "West End (residential area near the North End and TD Garden)", "Cost Type": "Rent", "Cost": 2833.3333333333335}, {"Neighborhood": "West End (residential area near the North End and TD Garden)", "Cost Type": "Utilities", "Cost": 141.66666666666666}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
