@@ -1,104 +1,91 @@
-Rental Type,Bedrooms,Bathrooms,Furnished,Utilities Included,Neighborhood,Proximity to Transit,Total Rent Avg,Utility Cost Avg,Personal Income Avg,People in Unit,Pet-friendly,Pool,Game room,Laundry facilities (no need to pay),none of these,Water,Concierge/Doorman,Parking,roof deck,common deck,Mail Room,Gym
-Apartment,2.0,1.0,Furnished,"No, no utilities included",The Fenway/Kenmore,Very close,3500.0,,,3.0,0,0,0,0,0,0,0,0,0,0,1,0
-Apartment,3.0,1.0,Partially,"Yes, some utilities included",Roxbury,Very close,4500.0,175.0,3000.0,3.0,0,0,0,0,0,0,0,0,0,0,0,0
-Apartment,3.0,1.0,Unfurnished,"Yes, some utilities included",Roxbury,Very close,4500.0,,,3.0,0,0,0,0,0,0,0,0,0,0,0,0
-Apartment,4.0,1.0,Partially,"No, no utilities included",Roxbury,Very close,4500.0,125.0,,4.0,0,0,0,0,0,0,0,0,0,0,0,0
-"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",2.0,1.0,Unfurnished,"No, no utilities included",Mission Hill,Very close,3500.0,175.0,2000.0,2.0,0,0,0,1,0,0,0,0,0,0,1,0
-Apartment,4.0,1.5,Unfurnished,"Yes, some utilities included",The Fenway/Kenmore,Very close,5500.0,225.0,5000.0,4.0,0,0,0,0,0,0,0,0,0,0,0,0
-Apartment,3.0,2.0,Unfurnished,"No, no utilities included",Roxbury,Very close,5500.0,,2000.0,4.0,0,0,0,0,0,0,0,0,0,0,1,0
-Apartment,1.0,1.0,Partially,"Yes, all utilities included",The Fenway/Kenmore,Very close,1500.0,125.0,5000.0,2.0,0,0,0,0,1,0,0,0,0,0,0,0
-Single-family home,5.0,2.5,Unfurnished,"No, no utilities included",Mission Hill,Very close,,,,5.0,0,0,0,1,0,0,0,0,0,0,0,0
-Apartment,4.0,2.0,Furnished,"Yes, some utilities included",Mission Hill,Very close,5500.0,125.0,2000.0,4.0,0,0,0,1,0,0,0,1,0,0,0,0
-Apartment,3.0,1.0,Unfurnished,"Yes, some utilities included",The Fenway/Kenmore,Very close,4500.0,75.0,5000.0,3.0,0,0,0,0,0,0,0,0,0,0,1,0
-Apartment,3.0,1.0,Unfurnished,"Yes, some utilities included",Mission Hill,Very close,3500.0,,,3.0,0,0,0,1,0,0,0,0,0,0,0,0
-Apartment,3.0,2.0,Partially,"No, no utilities included",The Fenway/Kenmore,Very close,5500.0,125.0,,3.0,1,0,0,0,0,0,0,0,0,0,0,0
-Multi-family homes,5.0,1.0,Partially,"No, no utilities included",Mission Hill,Very close,5500.0,175.0,,4.0,0,0,0,0,0,0,0,0,0,0,0,0
-Apartment,2.0,1.0,Unfurnished,"Yes, some utilities included",Mission Hill,Very close,2500.0,75.0,2000.0,2.0,0,0,0,0,0,0,0,0,0,0,0,0
-Multi-family homes,2.0,3.0,Unfurnished,"No, no utilities included","Financial District (located near Seaport and the Waterfront, known for its office buildings, businesses, and luxury condos.)",,,,,6.0,1,0,0,0,0,0,0,0,0,0,0,0
-Apartment,2.0,1.0,Partially,"Yes, some utilities included",The Fenway/Kenmore,Very close,3500.0,2000.0,,2.0,0,0,0,0,0,0,0,0,0,0,0,0
-Apartment,3.0,2.0,Unfurnished,"Yes, some utilities included",Downtown,,,,,3.0,1,0,0,1,0,0,1,1,0,0,1,1
-Apartment,3.0,2.0,Unfurnished,"No, no utilities included",Mission Hill,Very close,4500.0,125.0,3000.0,3.0,1,0,0,1,0,0,0,0,0,0,1,0
-Apartment,2.0,1.0,Unfurnished,"Yes, some utilities included",The Fenway/Kenmore,Very close,3500.0,125.0,,2.0,0,0,0,0,0,0,0,0,0,0,0,0
-Apartment,3.0,1.5,Unfurnished,"No, no utilities included",Roxbury,Very close,3500.0,175.0,,5.0,0,0,0,0,0,0,0,1,0,0,0,0
-"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",2.0,2.0,Unfurnished,"No, no utilities included",Downtown,Very close,5500.0,125.0,,2.0,1,1,0,1,0,0,1,1,0,0,1,1
-Apartment,5.0,1.0,Unfurnished,"No, no utilities included",Mission Hill,Very close,5500.0,125.0,,4.0,0,0,0,1,0,0,0,0,0,0,0,0
-Apartment,4.0,2.0,Unfurnished,"No, no utilities included",Mission Hill,Very close,5500.0,225.0,,4.0,0,0,0,1,0,0,0,0,0,0,0,0
-Apartment,2.0,1.0,Unfurnished,"Yes, some utilities included",Mission Hill,Very close,1500.0,125.0,,2.0,0,0,0,1,0,0,0,0,0,0,0,0
-,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0
-Apartment,,1.0,Unfurnished,"Yes, some utilities included",Waterfront,Very close,1500.0,2000.0,5000.0,,0,0,0,0,0,0,0,0,0,0,0,0
-Apartment,4.0,1.5,Unfurnished,"Yes, some utilities included",Mission Hill,Very close,4500.0,,2000.0,4.0,1,0,0,1,0,0,0,0,0,0,0,0
-Apartment,4.0,2.0,Unfurnished,"Yes, some utilities included",Mission Hill,Very close,5500.0,75.0,,4.0,1,0,0,1,0,0,0,0,0,0,0,0
-Apartment,4.0,2.0,Unfurnished,"No, no utilities included",The Fenway/Kenmore,Very close,6500.0,175.0,3000.0,4.0,0,0,0,0,0,0,0,0,0,0,0,0
-Apartment,3.0,1.0,Unfurnished,"Yes, some utilities included",Mission Hill,Very close,3500.0,75.0,2000.0,3.0,0,0,0,1,0,0,0,0,0,0,0,0
-Apartment,1.0,1.0,Unfurnished,"Yes, some utilities included",Mission Hill,Very close,1500.0,125.0,,,0,0,0,1,0,0,0,0,0,0,0,0
-Apartment,3.0,1.0,Unfurnished,"No, no utilities included",Mission Hill,Very close,4500.0,175.0,,3.0,0,0,0,0,0,0,0,0,0,0,0,0
-Apartment,3.0,1.0,Unfurnished,"Yes, some utilities included",The Fenway/Kenmore,Very close,5500.0,75.0,2000.0,3.0,0,0,0,1,0,0,0,0,0,0,1,0
-Apartment,2.0,2.0,Unfurnished,"Yes, some utilities included",Roxbury,,5500.0,75.0,,5.0,0,0,0,1,0,0,0,0,0,0,0,0
-Apartment,4.0,2.0,Unfurnished,"No, no utilities included",Roxbury,,4500.0,125.0,7000.0,4.0,0,0,0,1,0,0,0,0,0,0,0,0
-Apartment,2.0,1.0,Unfurnished,"No, no utilities included",Mission Hill,Very close,3500.0,175.0,3000.0,2.0,0,0,0,0,0,0,0,0,0,0,0,0
-Apartment,2.0,1.0,Unfurnished,"No, no utilities included",Downtown,Very close,3500.0,125.0,,,0,0,0,0,0,0,1,1,0,0,0,0
-Apartment,4.0,3.0,Furnished,"No, no utilities included",Roxbury,Very close,6500.0,,,4.0,1,0,0,1,0,0,0,0,0,0,0,0
-Apartment,2.0,1.0,Unfurnished,"Yes, some utilities included",The Fenway/Kenmore,Very close,3500.0,,,2.0,0,0,0,0,0,0,0,0,0,0,0,0
-Apartment,4.0,2.0,Unfurnished,"No, no utilities included",Mission Hill,Very close,5500.0,175.0,,4.0,1,0,0,0,0,0,0,0,0,0,0,0
-"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",2.0,2.0,Unfurnished,"Yes, some utilities included",Downtown,Very close,3500.0,125.0,,2.0,0,0,0,1,0,0,0,0,0,0,0,0
-Apartment,3.0,1.0,Unfurnished,"No, no utilities included",Mission Hill,Very close,4500.0,175.0,,3.0,1,0,0,1,0,0,0,0,0,0,0,0
-"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",2.0,2.0,Unfurnished,"Yes, some utilities included",Downtown,Very close,5500.0,125.0,,2.0,0,0,0,1,0,0,0,1,0,0,0,0
-Apartment,3.0,1.0,Unfurnished,,Mission Hill,Very close,4500.0,175.0,3000.0,3.0,0,0,0,0,0,0,0,0,0,0,0,0
-"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",3.0,2.0,Unfurnished,"Yes, all utilities included",Downtown,Very close,6500.0,,,3.0,1,0,0,1,0,0,1,1,0,0,1,1
-Apartment,2.0,1.5,Unfurnished,"Yes, some utilities included",Downtown,Very close,3500.0,125.0,7000.0,2.0,1,0,0,0,0,0,0,0,0,0,0,1
-Apartment,4.0,1.0,Unfurnished,"No, no utilities included",Mission Hill,Very close,6500.0,225.0,9000.0,4.0,0,0,0,1,0,0,0,0,0,0,0,0
-Apartment,4.0,2.0,Unfurnished,"Yes, some utilities included",Downtown,,,225.0,,4.0,0,0,0,1,0,0,0,1,0,0,0,0
-Apartment,4.0,2.0,Unfurnished,"Yes, some utilities included",Mission Hill,Very close,6500.0,175.0,,4.0,0,0,0,1,0,0,0,0,0,0,0,0
-Apartment,4.0,,Unfurnished,"Yes, some utilities included",Beacon Hill,Very close,,225.0,7000.0,4.0,1,0,0,0,0,0,0,1,0,0,0,0
-Apartment,3.0,1.5,Unfurnished,"No, no utilities included",Jamaica Plain (JP),,4500.0,175.0,5000.0,3.0,0,0,0,1,0,0,0,0,0,0,0,0
-Apartment,4.0,1.0,Unfurnished,"Yes, some utilities included",Jamaica Plain (JP),,4500.0,125.0,3000.0,4.0,0,0,0,1,0,0,0,0,0,0,0,0
-Apartment,3.0,1.0,Unfurnished,"Yes, some utilities included",BackBay,Very close,5500.0,75.0,,3.0,0,0,0,1,0,0,0,0,0,0,0,0
-Apartment,5.0,3.0,Unfurnished,"No, no utilities included",Downtown,Very close,,,,4.0,0,0,0,1,0,0,0,1,0,0,0,0
-Apartment,3.0,1.0,Unfurnished,"Yes, some utilities included",Downtown,Very close,4500.0,175.0,5000.0,3.0,0,0,0,1,0,0,0,1,0,0,0,0
-Apartment,3.0,1.0,Unfurnished,,Downtown,Very close,3500.0,175.0,5000.0,3.0,0,0,0,0,0,0,0,1,0,0,0,0
-Apartment,4.0,2.0,Unfurnished,"Yes, some utilities included",Downtown,Very close,5500.0,125.0,5000.0,3.0,1,0,0,1,0,0,0,1,0,0,0,0
-Apartment,3.0,2.0,Unfurnished,"No, no utilities included",Downtown,Very close,5500.0,175.0,7000.0,3.0,0,0,0,0,0,0,0,1,0,0,0,0
-Apartment,5.0,2.0,Unfurnished,"No, no utilities included",BackBay,Very close,,225.0,,5.0,0,0,0,0,0,0,0,0,0,0,0,0
-Apartment,3.0,1.0,Furnished,"No, no utilities included",BackBay,Very close,5500.0,225.0,,3.0,0,0,0,0,0,1,0,0,0,0,0,0
-Apartment,1.0,1.0,Unfurnished,"No, no utilities included",BackBay,Very close,3500.0,125.0,7000.0,,0,0,0,0,0,0,0,0,0,0,0,0
-Apartment,1.0,1.0,Unfurnished,"Yes, some utilities included",North End,,2500.0,175.0,5000.0,,0,0,0,0,0,0,0,0,0,0,0,0
-Apartment,,1.0,Unfurnished,"Yes, some utilities included",Beacon Hill,Very close,2500.0,125.0,7000.0,,0,0,0,0,0,0,0,0,0,0,0,0
-Apartment,1.0,1.0,Unfurnished,"Yes, some utilities included",The Fenway/Kenmore,Very close,2500.0,125.0,7000.0,,0,0,0,0,0,0,0,1,0,0,0,0
-Apartment,2.0,1.0,Unfurnished,"No, no utilities included",The Fenway/Kenmore,Very close,3500.0,175.0,5000.0,2.0,0,0,0,0,0,0,0,1,0,0,0,0
-Apartment,2.0,1.0,Unfurnished,"Yes, some utilities included",The Fenway/Kenmore,,4500.0,125.0,,2.0,0,0,0,1,0,0,0,0,0,0,0,0
-Apartment,2.0,2.0,Unfurnished,"No, no utilities included",The Fenway/Kenmore,Very close,4500.0,175.0,,2.0,0,0,0,0,0,0,0,0,0,0,0,0
-Condo,2.0,2.0,,"Yes, some utilities included",BackBay,Very close,6500.0,75.0,,2.0,0,0,0,1,0,0,0,0,1,0,0,0
-Apartment,2.0,2.0,Furnished,"Yes, some utilities included",BackBay,Very close,5500.0,75.0,,2.0,0,0,0,1,0,0,1,0,0,0,0,1
-Apartment,2.0,2.5,,"Yes, some utilities included",BackBay,Very close,,75.0,9000.0,2.0,1,0,0,1,0,0,0,1,0,1,0,0
-Apartment,3.0,1.0,Unfurnished,"No, no utilities included",BackBay,Very close,5500.0,225.0,,3.0,0,0,0,0,0,0,0,0,0,0,0,0
-Apartment,1.0,1.0,Unfurnished,"Yes, some utilities included",The Fenway/Kenmore,Very close,3500.0,75.0,,,1,0,0,0,0,0,0,0,0,0,0,0
-Apartment,2.0,2.0,Unfurnished,"No, no utilities included",Beacon Hill,Very close,5500.0,,9000.0,3.0,0,0,0,0,0,0,0,1,0,0,0,0
-"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",2.0,2.0,Unfurnished,"Yes, some utilities included",West End (residential area near the North End and TD Garden),Very close,3500.0,175.0,9000.0,2.0,1,0,0,1,0,0,1,1,0,0,1,1
-"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",,1.0,Unfurnished,"Yes, some utilities included",Waterfront,,3500.0,175.0,,,1,0,0,1,0,0,1,1,0,0,1,1
-Apartment,2.0,1.0,Unfurnished,"Yes, some utilities included",North End,Very close,3500.0,125.0,9000.0,2.0,1,0,0,1,0,0,0,1,0,0,0,1
-"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",,1.0,Unfurnished,"Yes, some utilities included",West End (residential area near the North End and TD Garden),Very close,2500.0,125.0,,,1,0,0,1,0,0,1,1,0,0,1,1
-Apartment,2.0,1.0,Unfurnished,"No, no utilities included",Beacon Hill,,3500.0,225.0,7000.0,2.0,0,0,0,0,0,0,0,1,0,0,0,0
-Apartment,2.0,2.5,Unfurnished,"No, no utilities included",BackBay,Very close,5500.0,225.0,,2.0,0,0,0,0,0,0,0,0,0,0,0,0
-Apartment,2.0,1.0,Unfurnished,"No, no utilities included",The Fenway/Kenmore,,2500.0,175.0,7000.0,2.0,0,0,0,0,0,0,0,0,0,0,0,0
-"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",,1.0,Unfurnished,"Yes, some utilities included",West End (residential area near the North End and TD Garden),Very close,2500.0,125.0,7000.0,,1,1,0,0,0,0,1,1,0,0,1,1
-"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",1.0,1.0,Unfurnished,"Yes, some utilities included",North End,Very close,2500.0,175.0,,2.0,0,1,0,1,0,0,1,1,0,0,1,1
-Apartment,1.0,1.0,Unfurnished,"Yes, some utilities included",Waterfront,,3500.0,125.0,9000.0,,0,0,0,1,0,0,1,0,0,0,0,1
-"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",,1.0,Furnished,"Yes, all utilities included",The Fenway/Kenmore,Very close,3500.0,2000.0,,,1,0,0,1,0,0,1,1,0,0,1,1
-"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",1.0,1.0,Unfurnished,"Yes, all utilities included",The Fenway/Kenmore,Very close,4500.0,75.0,,,1,1,0,1,0,0,0,0,0,0,0,1
-Apartment,1.0,1.0,Unfurnished,"No, no utilities included",The Fenway/Kenmore,Very close,2500.0,175.0,5000.0,,0,0,0,0,0,0,0,0,0,0,0,0
-"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",,1.0,Furnished,"Yes, all utilities included",The Fenway/Kenmore,Very close,3500.0,75.0,9000.0,,1,0,0,1,0,0,1,1,0,0,1,1
-Apartment,1.0,1.0,Unfurnished,"No, no utilities included",The Fenway/Kenmore,Very close,2500.0,175.0,,,0,0,0,0,0,0,0,1,0,0,0,0
-Apartment,5.0,2.0,Unfurnished,"No, no utilities included",The Fenway/Kenmore,Very close,,,7000.0,5.0,1,0,0,0,0,0,0,0,0,0,0,0
-Apartment,4.0,2.0,,"No, no utilities included",The Fenway/Kenmore,Very close,6500.0,,,4.0,1,0,0,0,0,0,0,1,0,0,0,0
-Apartment,5.0,2.0,Unfurnished,"Yes, some utilities included",The Fenway/Kenmore,Very close,,175.0,,5.0,1,0,0,0,0,0,0,1,0,0,0,0
-Apartment,4.0,3.0,Unfurnished,"Yes, some utilities included",The Fenway/Kenmore,Very close,,225.0,3000.0,4.0,1,0,0,1,0,0,0,0,0,0,0,0
-Apartment,5.0,3.0,Unfurnished,"No, no utilities included",Roxbury,,,,5000.0,5.0,1,0,0,1,0,0,0,0,0,0,0,0
-Apartment,4.0,2.0,Unfurnished,"No, no utilities included",Roxbury,Very close,6500.0,225.0,9000.0,4.0,1,0,0,1,0,0,0,1,0,0,0,0
-Single-family home,1.0,1.0,Unfurnished,"No, no utilities included",South Boston,,2500.0,175.0,9000.0,2.0,0,0,0,0,0,0,0,0,0,0,0,0
-Single-family home,2.0,1.0,Unfurnished,"Yes, some utilities included",The Fenway/Kenmore,Very close,3500.0,175.0,7000.0,2.0,1,0,0,0,0,0,0,0,0,0,0,0
-Apartment,,1.0,Unfurnished,"Yes, some utilities included",Downtown,Very close,1500.0,125.0,7000.0,,1,0,0,0,0,0,0,0,0,0,0,0
-"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",,1.0,Unfurnished,"Yes, some utilities included",Seaport District,Very close,3500.0,175.0,,,1,1,1,1,0,0,1,1,0,0,1,1
-"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",,1.0,Unfurnished,"Yes, some utilities included",Seaport District,Very close,3500.0,175.0,9000.0,,1,0,0,1,0,0,1,0,0,0,1,0
-Apartment,4.0,1.0,Unfurnished,"Yes, some utilities included",Roxbury,Very close,4500.0,225.0,3000.0,4.0,0,0,0,0,0,0,0,0,0,0,0,0
-Apartment,3.0,1.0,Unfurnished,"No, no utilities included",Mission Hill,Very close,4500.0,225.0,,3.0,0,0,0,0,0,0,0,0,0,0,0,0
-Apartment,2.0,1.0,Unfurnished,"Yes, some utilities included",Mission Hill,Very close,2500.0,2000.0,2000.0,2.0,0,0,0,0,0,0,0,0,0,0,0,0
+Rental Type,Bedrooms,Bathrooms,Furnished,Utilities Included,Neighborhood,Proximity to Transit,Total Rent Avg,Utility Cost Avg,Personal Income Avg,People in Unit,Parking,Concierge/Doorman,Game room,roof deck,Gym,Pet-friendly,Laundry facilities (no need to pay),Pool,Mail Room,No Additional Amenities,Total Rent w/ Utilities
+Apartment,2.0,1.0,Furnished,"No, no utilities included",The Fenway/Kenmore,Very close,3500.0,,,3.0,0,0,0,0,0,0,0,0,1,0,3500.0
+Apartment,3.0,1.0,Partially,"Yes, some utilities included",Roxbury,Very close,4500.0,175.0,3000.0,3.0,0,0,0,0,0,0,0,0,0,1,4675.0
+Apartment,3.0,1.0,Unfurnished,"Yes, some utilities included",Roxbury,Very close,4500.0,,,3.0,0,0,0,0,0,0,0,0,0,1,4500.0
+Apartment,4.0,1.0,Partially,"No, no utilities included",Roxbury,Very close,4500.0,125.0,,4.0,0,0,0,0,0,0,0,0,0,1,4625.0
+"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",2.0,1.0,Unfurnished,"No, no utilities included",Mission Hill,Very close,3500.0,175.0,2000.0,2.0,0,0,0,0,0,0,1,0,1,0,3675.0
+Apartment,4.0,1.5,Unfurnished,"Yes, some utilities included",The Fenway/Kenmore,Very close,5500.0,225.0,5000.0,4.0,0,0,0,0,0,0,0,0,0,1,5725.0
+Apartment,3.0,2.0,Unfurnished,"No, no utilities included",Roxbury,Very close,5500.0,,2000.0,4.0,0,0,0,0,0,0,0,0,1,0,5500.0
+Apartment,1.0,1.0,Partially,"Yes, all utilities included",The Fenway/Kenmore,Very close,1500.0,125.0,5000.0,2.0,0,0,0,0,0,0,0,0,0,1,1500.0
+Apartment,4.0,2.0,Furnished,"Yes, some utilities included",Mission Hill,Very close,5500.0,125.0,2000.0,4.0,1,0,0,0,0,0,1,0,0,0,5625.0
+Apartment,3.0,1.0,Unfurnished,"Yes, some utilities included",The Fenway/Kenmore,Very close,4500.0,75.0,5000.0,3.0,0,0,0,0,0,0,0,0,1,0,4575.0
+Apartment,3.0,1.0,Unfurnished,"Yes, some utilities included",Mission Hill,Very close,3500.0,,,3.0,0,0,0,0,0,0,1,0,0,0,3500.0
+Apartment,3.0,2.0,Partially,"No, no utilities included",The Fenway/Kenmore,Very close,5500.0,125.0,,3.0,0,0,0,0,0,1,0,0,0,0,5625.0
+Multi-family homes,5.0,1.0,Partially,"No, no utilities included",Mission Hill,Very close,5500.0,175.0,,4.0,0,0,0,0,0,0,0,0,0,1,5675.0
+Apartment,2.0,1.0,Unfurnished,"Yes, some utilities included",Mission Hill,Very close,2500.0,75.0,2000.0,2.0,0,0,0,0,0,0,0,0,0,1,2575.0
+Apartment,2.0,1.0,Partially,"Yes, some utilities included",The Fenway/Kenmore,Very close,3500.0,2000.0,,2.0,0,0,0,0,0,0,0,0,0,1,5500.0
+Apartment,3.0,2.0,Unfurnished,"No, no utilities included",Mission Hill,Very close,4500.0,125.0,3000.0,3.0,0,0,0,0,0,1,1,0,1,0,4625.0
+Apartment,2.0,1.0,Unfurnished,"Yes, some utilities included",The Fenway/Kenmore,Very close,3500.0,125.0,,2.0,0,0,0,0,0,0,0,0,0,1,3625.0
+Apartment,3.0,1.5,Unfurnished,"No, no utilities included",Roxbury,Very close,3500.0,175.0,,5.0,1,0,0,0,0,0,0,0,0,0,3675.0
+"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",2.0,2.0,Unfurnished,"No, no utilities included",Downtown,Very close,5500.0,125.0,,2.0,1,1,0,0,1,1,1,1,1,0,5625.0
+Apartment,5.0,1.0,Unfurnished,"No, no utilities included",Mission Hill,Very close,5500.0,125.0,,4.0,0,0,0,0,0,0,1,0,0,0,5625.0
+Apartment,4.0,2.0,Unfurnished,"No, no utilities included",Mission Hill,Very close,5500.0,225.0,,4.0,0,0,0,0,0,0,1,0,0,0,5725.0
+Apartment,2.0,1.0,Unfurnished,"Yes, some utilities included",Mission Hill,Very close,1500.0,125.0,,2.0,0,0,0,0,0,0,1,0,0,0,1625.0
+Apartment,,1.0,Unfurnished,"Yes, some utilities included",Waterfront,Very close,1500.0,2000.0,5000.0,,0,0,0,0,0,0,0,0,0,1,3500.0
+Apartment,4.0,1.5,Unfurnished,"Yes, some utilities included",Mission Hill,Very close,4500.0,,2000.0,4.0,0,0,0,0,0,1,1,0,0,0,4500.0
+Apartment,4.0,2.0,Unfurnished,"Yes, some utilities included",Mission Hill,Very close,5500.0,75.0,,4.0,0,0,0,0,0,1,1,0,0,0,5575.0
+Apartment,4.0,2.0,Unfurnished,"No, no utilities included",The Fenway/Kenmore,Very close,6500.0,175.0,3000.0,4.0,0,0,0,0,0,0,0,0,0,1,6675.0
+Apartment,3.0,1.0,Unfurnished,"Yes, some utilities included",Mission Hill,Very close,3500.0,75.0,2000.0,3.0,0,0,0,0,0,0,1,0,0,0,3575.0
+Apartment,1.0,1.0,Unfurnished,"Yes, some utilities included",Mission Hill,Very close,1500.0,125.0,,,0,0,0,0,0,0,1,0,0,0,1625.0
+Apartment,3.0,1.0,Unfurnished,"No, no utilities included",Mission Hill,Very close,4500.0,175.0,,3.0,0,0,0,0,0,0,0,0,0,1,4675.0
+Apartment,3.0,1.0,Unfurnished,"Yes, some utilities included",The Fenway/Kenmore,Very close,5500.0,75.0,2000.0,3.0,0,0,0,0,0,0,1,0,1,0,5575.0
+Apartment,2.0,2.0,Unfurnished,"Yes, some utilities included",Roxbury,,5500.0,75.0,,5.0,0,0,0,0,0,0,1,0,0,0,5575.0
+Apartment,4.0,2.0,Unfurnished,"No, no utilities included",Roxbury,,4500.0,125.0,7000.0,4.0,0,0,0,0,0,0,1,0,0,0,4625.0
+Apartment,2.0,1.0,Unfurnished,"No, no utilities included",Mission Hill,Very close,3500.0,175.0,3000.0,2.0,0,0,0,0,0,0,0,0,0,1,3675.0
+Apartment,2.0,1.0,Unfurnished,"No, no utilities included",Downtown,Very close,3500.0,125.0,,,1,1,0,0,0,0,0,0,0,0,3625.0
+Apartment,4.0,3.0,Furnished,"No, no utilities included",Roxbury,Very close,6500.0,,,4.0,0,0,0,0,0,1,1,0,0,0,6500.0
+Apartment,2.0,1.0,Unfurnished,"Yes, some utilities included",The Fenway/Kenmore,Very close,3500.0,,,2.0,0,0,0,0,0,0,0,0,0,1,3500.0
+Apartment,4.0,2.0,Unfurnished,"No, no utilities included",Mission Hill,Very close,5500.0,175.0,,4.0,0,0,0,0,0,1,0,0,0,0,5675.0
+"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",2.0,2.0,Unfurnished,"Yes, some utilities included",Downtown,Very close,3500.0,125.0,,2.0,0,0,0,0,0,0,1,0,0,0,3625.0
+Apartment,3.0,1.0,Unfurnished,"No, no utilities included",Mission Hill,Very close,4500.0,175.0,,3.0,0,0,0,0,0,1,1,0,0,0,4675.0
+"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",2.0,2.0,Unfurnished,"Yes, some utilities included",Downtown,Very close,5500.0,125.0,,2.0,1,0,0,0,0,0,1,0,0,0,5625.0
+Apartment,3.0,1.0,Unfurnished,,Mission Hill,Very close,4500.0,175.0,3000.0,3.0,0,0,0,0,0,0,0,0,0,1,4500.0
+"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",3.0,2.0,Unfurnished,"Yes, all utilities included",Downtown,Very close,6500.0,,,3.0,1,1,0,0,1,1,1,0,1,0,6500.0
+Apartment,2.0,1.5,Unfurnished,"Yes, some utilities included",Downtown,Very close,3500.0,125.0,7000.0,2.0,0,0,0,0,1,1,0,0,0,0,3625.0
+Apartment,4.0,1.0,Unfurnished,"No, no utilities included",Mission Hill,Very close,6500.0,225.0,9000.0,4.0,0,0,0,0,0,0,1,0,0,0,6725.0
+Apartment,4.0,2.0,Unfurnished,"Yes, some utilities included",Mission Hill,Very close,6500.0,175.0,,4.0,0,0,0,0,0,0,1,0,0,0,6675.0
+Apartment,3.0,1.5,Unfurnished,"No, no utilities included",Jamaica Plain (JP),,4500.0,175.0,5000.0,3.0,0,0,0,0,0,0,1,0,0,0,4675.0
+Apartment,4.0,1.0,Unfurnished,"Yes, some utilities included",Jamaica Plain (JP),,4500.0,125.0,3000.0,4.0,0,0,0,0,0,0,1,0,0,0,4625.0
+Apartment,3.0,1.0,Unfurnished,"Yes, some utilities included",BackBay,Very close,5500.0,75.0,,3.0,0,0,0,0,0,0,1,0,0,0,5575.0
+Apartment,3.0,1.0,Unfurnished,"Yes, some utilities included",Downtown,Very close,4500.0,175.0,5000.0,3.0,1,0,0,0,0,0,1,0,0,0,4675.0
+Apartment,3.0,1.0,Unfurnished,,Downtown,Very close,3500.0,175.0,5000.0,3.0,1,0,0,0,0,0,0,0,0,0,3500.0
+Apartment,4.0,2.0,Unfurnished,"Yes, some utilities included",Downtown,Very close,5500.0,125.0,5000.0,3.0,1,0,0,0,0,1,1,0,0,0,5625.0
+Apartment,3.0,2.0,Unfurnished,"No, no utilities included",Downtown,Very close,5500.0,175.0,7000.0,3.0,1,0,0,0,0,0,0,0,0,0,5675.0
+Apartment,3.0,1.0,Furnished,"No, no utilities included",BackBay,Very close,5500.0,225.0,,3.0,0,0,0,0,0,0,0,0,0,1,5725.0
+Apartment,1.0,1.0,Unfurnished,"No, no utilities included",BackBay,Very close,3500.0,125.0,7000.0,,0,0,0,0,0,0,0,0,0,1,3625.0
+Apartment,1.0,1.0,Unfurnished,"Yes, some utilities included",North End,,2500.0,175.0,5000.0,,0,0,0,0,0,0,0,0,0,1,2675.0
+Apartment,,1.0,Unfurnished,"Yes, some utilities included",Beacon Hill,Very close,2500.0,125.0,7000.0,,0,0,0,0,0,0,0,0,0,1,2625.0
+Apartment,1.0,1.0,Unfurnished,"Yes, some utilities included",The Fenway/Kenmore,Very close,2500.0,125.0,7000.0,,1,0,0,0,0,0,0,0,0,0,2625.0
+Apartment,2.0,1.0,Unfurnished,"No, no utilities included",The Fenway/Kenmore,Very close,3500.0,175.0,5000.0,2.0,1,0,0,0,0,0,0,0,0,0,3675.0
+Apartment,2.0,1.0,Unfurnished,"Yes, some utilities included",The Fenway/Kenmore,,4500.0,125.0,,2.0,0,0,0,0,0,0,1,0,0,0,4625.0
+Apartment,2.0,2.0,Unfurnished,"No, no utilities included",The Fenway/Kenmore,Very close,4500.0,175.0,,2.0,0,0,0,0,0,0,0,0,0,1,4675.0
+Condo,2.0,2.0,,"Yes, some utilities included",BackBay,Very close,6500.0,75.0,,2.0,0,0,0,1,0,0,1,0,0,0,6575.0
+Apartment,2.0,2.0,Furnished,"Yes, some utilities included",BackBay,Very close,5500.0,75.0,,2.0,0,1,0,0,1,0,1,0,0,0,5575.0
+Apartment,3.0,1.0,Unfurnished,"No, no utilities included",BackBay,Very close,5500.0,225.0,,3.0,0,0,0,0,0,0,0,0,0,1,5725.0
+Apartment,1.0,1.0,Unfurnished,"Yes, some utilities included",The Fenway/Kenmore,Very close,3500.0,75.0,,,0,0,0,0,0,1,0,0,0,0,3575.0
+Apartment,2.0,2.0,Unfurnished,"No, no utilities included",Beacon Hill,Very close,5500.0,,9000.0,3.0,1,0,0,0,0,0,0,0,0,0,5500.0
+"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",2.0,2.0,Unfurnished,"Yes, some utilities included",West End (residential area near the North End and TD Garden),Very close,3500.0,175.0,9000.0,2.0,1,1,0,0,1,1,1,0,1,0,3675.0
+"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",,1.0,Unfurnished,"Yes, some utilities included",Waterfront,,3500.0,175.0,,,1,1,0,0,1,1,1,0,1,0,3675.0
+Apartment,2.0,1.0,Unfurnished,"Yes, some utilities included",North End,Very close,3500.0,125.0,9000.0,2.0,1,0,0,0,1,1,1,0,0,0,3625.0
+"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",,1.0,Unfurnished,"Yes, some utilities included",West End (residential area near the North End and TD Garden),Very close,2500.0,125.0,,,1,1,0,0,1,1,1,0,1,0,2625.0
+Apartment,2.0,1.0,Unfurnished,"No, no utilities included",Beacon Hill,,3500.0,225.0,7000.0,2.0,1,0,0,0,0,0,0,0,0,0,3725.0
+Apartment,2.0,2.5,Unfurnished,"No, no utilities included",BackBay,Very close,5500.0,225.0,,2.0,0,0,0,0,0,0,0,0,0,1,5725.0
+Apartment,2.0,1.0,Unfurnished,"No, no utilities included",The Fenway/Kenmore,,2500.0,175.0,7000.0,2.0,0,0,0,0,0,0,0,0,0,1,2675.0
+"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",,1.0,Unfurnished,"Yes, some utilities included",West End (residential area near the North End and TD Garden),Very close,2500.0,125.0,7000.0,,1,1,0,0,1,1,0,1,1,0,2625.0
+"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",1.0,1.0,Unfurnished,"Yes, some utilities included",North End,Very close,2500.0,175.0,,2.0,1,1,0,0,1,0,1,1,1,0,2675.0
+Apartment,1.0,1.0,Unfurnished,"Yes, some utilities included",Waterfront,,3500.0,125.0,9000.0,,0,1,0,0,1,0,1,0,0,0,3625.0
+"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",,1.0,Furnished,"Yes, all utilities included",The Fenway/Kenmore,Very close,3500.0,2000.0,,,1,1,0,0,1,1,1,0,1,0,3500.0
+"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",1.0,1.0,Unfurnished,"Yes, all utilities included",The Fenway/Kenmore,Very close,4500.0,75.0,,,0,0,0,0,1,1,1,1,0,0,4500.0
+Apartment,1.0,1.0,Unfurnished,"No, no utilities included",The Fenway/Kenmore,Very close,2500.0,175.0,5000.0,,0,0,0,0,0,0,0,0,0,1,2675.0
+"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",,1.0,Furnished,"Yes, all utilities included",The Fenway/Kenmore,Very close,3500.0,75.0,9000.0,,1,1,0,0,1,1,1,0,1,0,3500.0
+Apartment,1.0,1.0,Unfurnished,"No, no utilities included",The Fenway/Kenmore,Very close,2500.0,175.0,,,1,0,0,0,0,0,0,0,0,0,2675.0
+Apartment,4.0,2.0,,"No, no utilities included",The Fenway/Kenmore,Very close,6500.0,,,4.0,1,0,0,0,0,1,0,0,0,0,6500.0
+Apartment,4.0,2.0,Unfurnished,"No, no utilities included",Roxbury,Very close,6500.0,225.0,9000.0,4.0,1,0,0,0,0,1,1,0,0,0,6725.0
+Single-family home,1.0,1.0,Unfurnished,"No, no utilities included",South Boston,,2500.0,175.0,9000.0,2.0,0,0,0,0,0,0,0,0,0,1,2675.0
+Single-family home,2.0,1.0,Unfurnished,"Yes, some utilities included",The Fenway/Kenmore,Very close,3500.0,175.0,7000.0,2.0,0,0,0,0,0,1,0,0,0,0,3675.0
+Apartment,,1.0,Unfurnished,"Yes, some utilities included",Downtown,Very close,1500.0,125.0,7000.0,,0,0,0,0,0,1,0,0,0,0,1625.0
+"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",,1.0,Unfurnished,"Yes, some utilities included",Seaport District,Very close,3500.0,175.0,,,1,1,1,0,1,1,1,1,1,0,3675.0
+"Luxury apartments (include gym, in-unit laundry, appliances, concierge services, smart home features, parking lot, 24-hour security)",,1.0,Unfurnished,"Yes, some utilities included",Seaport District,Very close,3500.0,175.0,9000.0,,0,1,0,0,0,1,1,0,1,0,3675.0
+Apartment,4.0,1.0,Unfurnished,"Yes, some utilities included",Roxbury,Very close,4500.0,225.0,3000.0,4.0,0,0,0,0,0,0,0,0,0,1,4725.0
+Apartment,3.0,1.0,Unfurnished,"No, no utilities included",Mission Hill,Very close,4500.0,225.0,,3.0,0,0,0,0,0,0,0,0,0,1,4725.0
+Apartment,2.0,1.0,Unfurnished,"Yes, some utilities included",Mission Hill,Very close,2500.0,2000.0,2000.0,2.0,0,0,0,0,0,0,0,0,0,1,4500.0
