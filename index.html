@@ -143,31 +143,27 @@
             <p>
                 To visualize the student housing data across Boston, we created an interactive map that highlights
                 neighborhood-level insights. Areas shaded in color represent neighborhoods where we collected survey
-                responses, while black areas indicate regions with no data. When hovering over each neighborhood, users
+                responses, while black shaded areas indicate regions with no data. When hovering over each neighborhood, users
                 can view key details such as the average number of bedrooms and bathrooms, rent-to-income ratio, cost
-                per person, the distribution of furnished,
-                partially furnished, and unfurnished units, average rent, average utility costs, and a count of
-                amenities offered
-                (e.g., gym access, free laundry, parking, etc.).
+                per person, the distribution of furnished, partially furnished, and unfurnished units, average rent, average utility costs, and a count of
+                amenities offered (e.g. gym access, free laundry, parking, etc.).
             </p>
             <p>
-                In terms of coverage, our data includes most neighborhoods in the Boston area, with the exception of the
-                South End, Chinatown, Leather District, and Bay Village. This gap is likely due to those neighborhoods
-                not being explicitly listed as options in the survey, possibly because they are less well-known among
-                students. As a result, data from nearby neighborhoods may partially reflect responses from students
-                living in or near
-                those unlisted areas.
+                In terms of neighborhood coverage, our data includes most neighborhoods in the Boston area, with the exception of the
+                South End, Chinatown, Leather District, and Bay Village. This is because those neighborhoods are
+                not explicitly listed as options in the survey since they are less refered to when asking about locations. 
+                As a result, data from nearby neighborhoods may partially reflect responses from students
+                living in or near those unlisted areas.
             </p>
             <p>
                 From a cost perspective, neighborhoods located near Northeastern University, the Financial District, and
-                shopping centers like Newbury Street tend to have higher average rent. However, it's important to note
-                that rent levels may also be influenced by factors such as the number of bedrooms or the availability of
-                amenities, which vary across different listings.
+                shopping centers like Newbury Street tend to have higher average rent. However, rent levels can be influenced 
+                by factors such as the number of bedrooms or the availability of amenities, which vary across different listings.
             </p>
             <p>
                 The map also visualizes the Cost Per Person (average rent divided by the number of
                 bedrooms), revealing key affordability trends. Neighborhoods such as South Boston, Downtown, and
-                the Financial District have the highest per-person housing costs, likely due to their
+                the Financial District have the highest per-person housing costs due to their
                 luxury developments, central locations, and access to shopping, nightlife, and transit. In contrast,
                 areas like Jamaica Plain, Roslindale, and parts of Dorchester appear more affordable,
                 possibly due to larger units and shared housing.
@@ -175,22 +171,22 @@
             <p>
                 Interestingly, when we examine the Rent-to-Income Ratio (average rent divided by
                 average personal income), the picture becomes more nuanced. In neighborhoods like Jamaica Plain,
-                Roxbury, and Mission Hill, the ratio exceeds 1.0, meaning students are, on average,
+                Roxbury, and Mission Hill, the ratio exceeds 1.0, meaning residents are, on average,
                 spending more on rent than they earn monthly, a sign of financial strain. These students may be
                 relying on savings, loans, or outside support, and their situations may be less sustainable over time.
             </p>
             <p>
                 On the other hand, more expensive neighborhoods such as Fenway, Back Bay, South Boston
                 Waterfront, Downtown, and Beacon Hill show rent-to-income ratios below 1.0. This suggests
-                that although rent is high, students in these areas likely have higher incomes or more financial
+                that although rent is high, residents in these areas likely have higher incomes or more financial
                 resources, and may be sharing costs with multiple roommates.
             </p>
             <p>
                 Several black-shaded regions, including Allston, Brighton, and East Boston, reflect
-                missing or invalid rent-to-income data. Notably, these are known student-heavy neighborhoods, so their
+                missing or invalid rent-to-income data. These are also student-heavy neighborhoods, so their
                 absence highlights survey limitations rather than true student housing trends. Overall, by combining
-                cost-per-person and rent-to-income data, we gain a richer understanding of both where students
-                are living and whether they can afford to.
+                cost-per-person and rent-to-income data, we gain a depper understanding of both where students
+                are living and the affordability.
             </p>
 
     </h2>
@@ -207,11 +203,9 @@
             This scatter plot explores the relationship between average personal income and average total rent across
             various Boston neighborhoods.
             Due to missing values in either rent or income, we imputed the missing data by calculating the average
-            within
-            each respective neighborhood.
+            within each respective neighborhood.
             This helped ensure the dataset remained representative and complete. Because of the similarities in
-            responses
-            within neighborhoods, many points overlap on the chart.
+            responses within neighborhoods, many points may overlap on the chart.
         </p>
 
         <p>
@@ -225,23 +219,18 @@
 
         <p>
             When filtering to include only The Fenway/Kenmore, Roxbury, Mission Hill, and Jamaica Plain, neighborhoods
-            where
-            many Northeastern students live, the regression line flattens and slightly tilts downward.
+            where many Northeastern students live, the regression line flattens and slightly tilts downward.
             This suggests that in these student-dense areas, higher income does not consistently lead to higher rent.
             In some cases, lower-income students are paying rents comparable to or higher than their higher-income
-            peers.
-            This may reflect limited affordable housing options, forcing students to pay market rates regardless of
-            their
-            income.
+            peers. This may reflect limited affordable housing options, forcing students to pay market rates regardless of
+            their income.
         </p>
 
         <p>
             When South Boston, the Seaport District, the West End, and the North End are added, the regression line
-            begins
-            to tilt further downward.
+            begins to tilt further downward.
             While these areas tend to have higher average rents, they may also include students with modest incomes who
-            rely
-            on roommates, family support, or financial aid to cover costs.
+            rely on roommates, family support, or financial aid to cover costs.
             This slightly distorts the expected relationship between income and rent.
         </p>
 
@@ -249,18 +238,15 @@
             In contrast, when we focus only on neighborhoods like Downtown, the Waterfront, Beacon Hill, Back Bay, North
             End, West End, South Boston, and the Seaport District, the regression line becomes positively sloped.
             Data points in this filtered view only appear when average personal income exceeds $5,000, suggesting that
-            these
-            high-rent neighborhoods are financially accessible only to students with substantial income or external
+            these high-rent neighborhoods are financially accessible only to students with substantial income or external
             financial support.
         </p>
 
         <p>
-            Additionally, this chart highlights the wide financial disparity among students, with average personal
-            incomes
-            ranging from $2,000 to $7,500.
+            Additionally, this chart highlights the wide financial disparity among respondants, with average personal
+            incomes ranging from $2,000 to $7,500.
             In more affordable student-heavy areas, rent appears largely disconnected from income, possibly due to
-            uniform
-            pricing or constrained supply.
+            uniform pricing or constrained supply.
             Meanwhile, in higher-income neighborhoods, rent tracks more closely with income, reflecting a more typical
             market-driven relationship. <br>
             <br>
