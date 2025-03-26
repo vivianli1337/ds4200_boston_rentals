@@ -399,7 +399,7 @@ d3.csv("income_vs_rent.csv").then(function (data) {
             .attr("y1", y(yVals[0]))
             .attr("x2", x(xVals[1]))
             .attr("y2", y(yVals[1]))
-            .attr("stroke", "black")
+            .attr("stroke", "red")
             .attr("stroke-width", 2)
             .attr("stroke-dasharray", "4 2");
     }
