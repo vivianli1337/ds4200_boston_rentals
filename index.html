@@ -70,16 +70,22 @@
                 into student housing choices through the lens of affordability (see <strong>Figure 1</strong>).
             </p>
 
-            <h2>Table 1: INSERT IMAGE</h2>
+            <h2>Table 1: Trends</h2>
+            <div class=img>
+                <img src="table 1.png" width="600">
+            </div>
             <p>
-                Introduces the key trends in Boston’s rental market, demonstrating an increasing vacancy rate in 2024
+                Table 1 introduces the key trends in Boston’s rental market, demonstrating an increasing vacancy rate in 2024
                 and
                 rising average rents (three-bedroom units have an average rent of $4,182).
             </p>
 
-            <h2>Figure 1: INSERT IMAGE</h2>
+            <h2>Figure 1: Affordability</h2>
+            <div class=img>
+                <img src="figure 1.png" width="500">
+            </div>
             <p>
-                Introduces the relationship between rent growth, median income changes, and the affordability index in
+                Figure 1 introduces the relationship between rent growth, median income changes, and the affordability index in
                 Boston.
                 The declining affordability index in recent years demonstrates that rising rates are outpacing income
                 growth,
@@ -142,7 +148,7 @@
 
     <div>
         <h2>Interactive Rental Map</h2>
-        <iframe src="boston_rent_map.html" width="100%" height="600" frameborder="0" scrolling="no"
+        <iframe src="boston_rent_map.html" width="100%" height="500" frameborder="0" scrolling="no"
             style="border: none;"></iframe>
 
         <p>
@@ -343,6 +349,39 @@
             are included in the rent. Therefore, this stacked bar chart serves as a baseline when attempting to search
             for neighborhoods, but further evaluations must be
             done in order to make the final decision.
+        </p>
+    </div>
+
+    <div>
+        <h2>Figure 5: Correlation Heatmap Between Features </h2>
+        <iframe src="corr_heatmap.html" width="100%" height="800" frameborder="0" scrolling="no"
+            style="border: none;"></iframe>
+        <p>
+            This analysis examines how specific amenities correlate to the total rent, including utilities, as our
+            objective is to analyze affordability and student housing and students care more about how much they’re
+            paying each month in total (not just the base rent).
+            Each box in the visualization shows the distribution of rent for the surveyed listings with that amenity.
+            This graph allows us to see which features may drive higher rental costs for students.
+
+        </p>
+        <p>
+            Based on the chart, amenities like having laundry facilities with no additional cost to the rent, being
+            pet-friendly, and having access to parking were associated with higher average rent prices. This reflects
+            both the cost of providing these services and the perceived value to students.
+            For example, parking shows one of the highest average rents, suggesting that convenience and accessibility
+            to this feature come at a premium, especially in an urban area. There is also an outlier in this data, as
+            only one property includes a roof deck.
+            Because there is no other listing with the same amenity, its average rent cannot be meaningfully compared to
+            other amenities.
+        </p>
+        <p>
+            However, it's also important to note that amenities are not the only factor influencing rent prices. Other
+            characteristics, like the number of bedrooms and bathrooms in a unit, can significantly impact overall rent,
+            encouraging a deeper and holistic investigation into the impacts of rent, which our other visualizations
+            examine.
+            For example, laundry facilities with no added cost have a widespread interquartile range from $3,637.50 to
+            $5,625, suggesting that there is a large variance in what renters pay for units with this amenity, which
+            shows that differences in location and other factors can impact rent.
         </p>
     </div>
 
