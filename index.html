@@ -6,190 +6,202 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DS4200 Project</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1 style="color:black"> Boston Rental Analysis </h1>
-    <h2> Overall Introduction</h3>
+    <h1> Boston Rental Analysis </h1>
+    <h4>By: Avita Islam, Vivian Li, Veronica Yang</h4>
+    <div>
+        <h2> Overall Introduction</h3>
+            <p>
+                Boston ranks #4 in one of the most expensive cities to rent in the United States. Since February 2025,
+                the average rental cost is about $3.4k per month, 119% higher than the average national rental cost of
+                $1.5k per month (<em> <a
+                        href="https://www.apartments.com/rent-market-trends/boston-ma/?utm_source=chatgpt.com">
+                        Apartment.com</a></em>).
+                A 1-bedroom unit costs about $3.4k per month, while a 3-bedroom unit costs about $5.8k a month.
+                The rental costs and housing conditions vary, depending on the location of the house and its surrounding
+                areas.
+                Housing affordability and amenities are some of the main factors that shape the students’ college
+                experience,
+                financial stability, and overall well-being.
+            </p>
 
+            <p>
+                At Northeastern, a majority of the students move off campus after their 1st or 2nd year. With rising
+                rental
+                costs and living expenses, off-campus students face significant challenges in selecting the right
+                apartment
+                in terms of affordability, distance to campus, and available amenities. Amenities such as in-unit
+                laundry,
+                furnished spaces, and access to public transportation influence housing choices, yet the interplay
+                between
+                cost and convenience remains understudied. Understanding these dynamics is essential for assessing how
+                affordability and key features shape student housing decisions.
+            </p>
+
+            <p>
+                Our research project is supported by existing research on Boston’s vast real estate market. The first
+                paper,
+                <strong><em><a href="https://iacis.org/iis/2018/2_iis_2018_109-118.pdf" target="_blank">
+                            Analysis and Prediction of Real Estate Prices: A Case of the Boston Housing
+                            Market</a></em></strong>,
+                published in the International Association of Computer Information Systems, examines how properties’
+                attributes,
+                crime rates, and accessibility influence real estate prices using machine learning models, property
+                assessment
+                records, and geospatial data. The findings can help contextualize affordability trends for students who
+                live
+                in Boston (see <strong>Table 1</strong>).
+            </p>
+
+            <p>
+                The second paper, <strong><em><a
+                            href="https://www.huduser.gov/portal/publications/pdf/BostonMA-CHMA-24.pdf" target="_blank">
+                            Comprehensive Housing Market Analysis for Boston, Massachusetts</a></em></strong>, published
+                by
+                the U.S. Department
+                of Housing and Urban Development, provides a 2024 market overview, highlighting that Boston’s rental
+                vacancy
+                is 6.2% and the average monthly rent in the city is $2,879. It also provides data and comprehensive
+                charts
+                on rental vacancy rates, rental unit distribution, and rising rent prices in the area, providing insight
+                into student housing choices through the lens of affordability (see <strong>Figure 1</strong>).
+            </p>
+
+            <h2>Table 1: INSERT IMAGE</h2>
+            <p>
+                Introduces the key trends in Boston’s rental market, demonstrating an increasing vacancy rate in 2024
+                and
+                rising average rents (three-bedroom units have an average rent of $4,182).
+            </p>
+
+            <h2>Figure 1: INSERT IMAGE</h2>
+            <p>
+                Introduces the relationship between rent growth, median income changes, and the affordability index in
+                Boston.
+                The declining affordability index in recent years demonstrates that rising rates are outpacing income
+                growth,
+                which impacts students’ housing choices.
+            </p>
+
+            <p>
+                By integrating the findings from these reference papers with our survey of Northeastern students living
+                off-campus, we aim to explore how rental costs and amenities influence student living preferences and
+                financial well-being. Through this analysis, we hope to identify key affordability trends, identify the
+                most
+                valued housing amenities, and assess those trade-offs that students must make when selecting their
+                housing.
+            </p>
+    </div>
+
+    <div class="data-info">
+        <h2>Data Collection Process: SHOW DATA COLUMNS</h2>
         <p>
-            Boston ranks #4 in one of the most expensive cities to rent in the United States. Since February 2025,
-            the average rental cost is about $3.4k per month, 119% higher than the average national rental cost of
-            $1.5k per month (<em> <a
-                    href="https://www.apartments.com/rent-market-trends/boston-ma/?utm_source=chatgpt.com">
-                    Apartment.com</a></em>).
-            A 1-bedroom unit costs about $3.4k per month, while a 3-bedroom unit costs about $5.8k a month.
-            The rental costs and housing conditions vary, depending on the location of the house and its surrounding
-            areas.
-            Housing affordability and amenities are some of the main factors that shape the students’ college
-            experience,
-            financial stability, and overall well-being.
+            To explore the impact of rental costs and housing amenities on students at Northeastern University, we
+            conducted a survey targeting only students living off-campus. The survey was distributed within our
+            networks, including friends and peers, ensuring a diverse set of responses across different living
+            situations. To encourage participation, we structured the survey to only include essential questions
+            that would provide meaningful insights while avoiding unnecessary complexity.
+        </p>
+        <p>
+            The <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLScvwI2bZDSv7DUw5RWuYH5iXIvIS1lFwmBBQpdPcrLir-BvpQ/viewform?usp=sharing">survey</a>
+            included both categorical and continuous variables, covering aspects such as rental type,
+            number of occupants, monthly rent, amenities, neighborhood, and proximity to public transportation. We
+            also gathered financial data, including monthly personal income and whether utilities were included in
+            the rent to evaluate affordability. Our dataset consists of 103 responses, ensuring a comprehensive and
+            representative sample of Northeastern students’ off-campus housing experiences. All responses were
+            confidential, allowing students to be completely transparent about their housing situations and income.
+        </p>
+        <p>
+            This dataset enables us to identify key affordability trends and student housing preferences in rental
+            decisions, providing valuable insights into the Boston rental market from the perspective of a
+            Northeastern student.
         </p>
 
+        <h2>Analysis Plan + Visualization</h2>
         <p>
-            At Northeastern, a majority of the students move off campus after their 1st or 2nd year. With rising rental
-            costs and living expenses, off-campus students face significant challenges in selecting the right apartment
-            in terms of affordability, distance to campus, and available amenities. Amenities such as in-unit laundry,
-            furnished spaces, and access to public transportation influence housing choices, yet the interplay between
-            cost and convenience remains understudied. Understanding these dynamics is essential for assessing how
-            affordability and key features shape student housing decisions.
+            Before we conduct any analysis, we will preprocess and clean the data to ensure consistency, accuracy,
+            and usability. We will first handle all missing values. If participants left any responses blank, we
+            will input the most frequent responses based on their geographical location for the categorical
+            variables. For missing numerical values, we will use average/median imputation based on location. Since
+            the responses for rent cost and utilities are given in ranges, we will use the midpoint of each range as
+            the numerical value for analysis.
         </p>
+        <p>
+            To prepare the categorical data for statistical models, we will convert all categorical data into
+            numerical formats by applying dummy encoding to variables like “Neighborhood,” “Amenities,” and
+            “Furnishing Type.” Additionally, we will use ordinal encoding for features like proximity to public
+            transportation. Lastly, we will normalize the monthly income values by using midpoint values to ensure
+            consistency in numerical
 
-        <p>
-            Our research project is supported by existing research on Boston’s vast real estate market. The first paper,
-            <strong><em><a href="https://iacis.org/iis/2018/2_iis_2018_109-118.pdf" target="_blank">
-                        Analysis and Prediction of Real Estate Prices: A Case of the Boston Housing
-                        Market</a></em></strong>,
-            published in the International Association of Computer Information Systems, examines how properties’
-            attributes,
-            crime rates, and accessibility influence real estate prices using machine learning models, property
-            assessment
-            records, and geospatial data. The findings can help contextualize affordability trends for students who live
-            in Boston (see <strong>Table 1</strong>).
-        </p>
+    </div>
 
-        <p>
-            The second paper, <strong><em><a href="https://www.huduser.gov/portal/publications/pdf/BostonMA-CHMA-24.pdf"
-                        target="_blank">
-                        Comprehensive Housing Market Analysis for Boston, Massachusetts</a></em></strong>, published by
-            the U.S. Department
-            of Housing and Urban Development, provides a 2024 market overview, highlighting that Boston’s rental vacancy
-            is 6.2% and the average monthly rent in the city is $2,879. It also provides data and comprehensive charts
-            on rental vacancy rates, rental unit distribution, and rising rent prices in the area, providing insight
-            into student housing choices through the lens of affordability (see <strong>Figure 1</strong>).
-        </p>
 
-        <h2>insert: Table 1</h2>
-        <p>
-            Introduces the key trends in Boston’s rental market, demonstrating an increasing vacancy rate in 2024 and
-            rising average rents (three-bedroom units have an average rent of $4,182).
-        </p>
-
-        <h2>insert: Figure 1</h2>
-        <p>
-            Introduces the relationship between rent growth, median income changes, and the affordability index in
-            Boston.
-            The declining affordability index in recent years demonstrates that rising rates are outpacing income
-            growth,
-            which impacts students’ housing choices.
-        </p>
+    <div>
+        <h2>Interactive Rental Map</h2>
+        <iframe src="boston_rent_map.html" width="100%" height="600" frameborder="0" scrolling="no"
+            style="border: none;"></iframe>
 
         <p>
-            By integrating the findings from these reference papers with our survey of Northeastern students living
-            off-campus, we aim to explore how rental costs and amenities influence student living preferences and
-            financial well-being. Through this analysis, we hope to identify key affordability trends, identify the most
-            valued housing amenities, and assess those trade-offs that students must make when selecting their housing.
+            To visualize the student housing data across Boston, we created an interactive map that highlights
+            neighborhood-level insights. The shaded areas in color represent neighborhoods where we collected survey
+            responses, while black shaded areas indicate regions that we do not have any data. When the user hover
+            over each neighborhood,
+            key details will be shown. Those details include the average number of bedrooms and bathrooms,
+            rent-to-income ratio, cost
+            per person, the distribution of furnished, partially furnished, and unfurnished units, average rent,
+            average utility costs, and a count of
+            amenities offered (e.g. gym access, free laundry, parking, etc.).
+        </p>
+        <p>
+            Our data covers a majority of neighborhoods in the Boston area except for
+            South End, Chinatown, Leather District, and Bay Village. This is because those neighborhoods are
+            not explicitly listed as options in the survey since they are less refered to when asking about
+            locations.
+            Thus, data from nearby neighborhoods may partially reflect responses from students
+            living in or near those unlisted areas.
+        </p>
+        <p>
+            From a cost perspective, neighborhoods located near Northeastern University, the Financial District, and
+            shopping centers like Newbury Street tend to have higher average rent. However, rent levels can be
+            influenced
+            by factors such as the number of bedrooms or the availability of amenities, which vary across different
+            listings.
+        </p>
+        <p>
+            The map also display the Cost Per Person (average rent divided by the number of
+            bedrooms), revealing key affordability trends. Neighborhoods like South Boston, Downtown, and
+            the Financial District have the highest per-person housing costs due to their
+            luxury developments, central locations, and access to shopping, nightlife, and transit.
+            In contrast, areas like Jamaica Plain and Roxbury appear more affordable,
+            possibly due to larger units, shared housing, and community-town areas.
+        </p>
+        <p>
+            When we examine the Rent-to-Income Ratio (average rent divided by
+            average personal income), the map began to look slightly more complex. In neighborhoods like Jamaica
+            Plain,
+            Roxbury, and Mission Hill, the ratio is greater than 1.0, meaning residents are, on average,
+            spending more on rent than they earn monthly, a sign of financial strain. These students may be
+            relying on savings, loans, or outside support, and their situations may be less sustainable over time.
+        </p>
+        <p>
+            On the other hand, more expensive neighborhoods such as Fenway, Back Bay, South Boston
+            Waterfront, Downtown, and Beacon Hill show rent-to-income ratios below 1.0. This shows
+            that although rent is high, residents in these areas likely have higher incomes or more financial
+            resources, and may be sharing costs with multiple roommates.
+        </p>
+        <p>
+            Several black-shaded regions, including Allston, Brighton, and East Boston, reflect
+            missing or invalid rent-to-income data. These are also student-heavy neighborhoods, so their
+            absence highlights survey limitations rather than true student housing trends. Overall, by combining
+            cost-per-person and rent-to-income data, we gain a deeper understanding of both where students
+            are living and the affordability.
         </p>
 
-        <div class="data-info">
-            <h2>Data Collection Process</h2>
-            <p>
-                To explore the impact of rental costs and housing amenities on students at Northeastern University, we
-                conducted a survey targeting only students living off-campus. The survey was distributed within our
-                networks, including friends and peers, ensuring a diverse set of responses across different living
-                situations. To encourage participation, we structured the survey to only include essential questions
-                that would provide meaningful insights while avoiding unnecessary complexity.
-            </p>
-            <p>
-                The <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLScvwI2bZDSv7DUw5RWuYH5iXIvIS1lFwmBBQpdPcrLir-BvpQ/viewform?usp=sharing">survey</a>
-                included both categorical and continuous variables, covering aspects such as rental type,
-                number of occupants, monthly rent, amenities, neighborhood, and proximity to public transportation. We
-                also gathered financial data, including monthly personal income and whether utilities were included in
-                the rent to evaluate affordability. Our dataset consists of 103 responses, ensuring a comprehensive and
-                representative sample of Northeastern students’ off-campus housing experiences. All responses were
-                confidential, allowing students to be completely transparent about their housing situations and income.
-            </p>
-            <p>
-                This dataset enables us to identify key affordability trends and student housing preferences in rental
-                decisions, providing valuable insights into the Boston rental market from the perspective of a
-                Northeastern student.
-            </p>
-
-            <h2>Analysis Plan + Visualization</h2>
-            <p>
-                Before we conduct any analysis, we will preprocess and clean the data to ensure consistency, accuracy,
-                and usability. We will first handle all missing values. If participants left any responses blank, we
-                will input the most frequent responses based on their geographical location for the categorical
-                variables. For missing numerical values, we will use average/median imputation based on location. Since
-                the responses for rent cost and utilities are given in ranges, we will use the midpoint of each range as
-                the numerical value for analysis.
-            </p>
-            <p>
-                To prepare the categorical data for statistical models, we will convert all categorical data into
-                numerical formats by applying dummy encoding to variables like “Neighborhood,” “Amenities,” and
-                “Furnishing Type.” Additionally, we will use ordinal encoding for features like proximity to public
-                transportation. Lastly, we will normalize the monthly income values by using midpoint values to ensure
-                consistency in numerical
-
-        </div>
-
-
-
-        <div class="button-container">
-            <button id="button">Contact </button>
-            <script> const navigateButton = document.getElementById("button")
-                navigateButton.addEventListener("click", function () {
-                    window.location.href = "contact.html"
-                })
-            </script>
-        </div>
-
-        <div>
-            <h2>Interactive Rental Map</h2>
-            <iframe src="boston_rent_map.html" width="80%" height="400" frameborder="0"></iframe>
-
-            <p>
-                To visualize the student housing data across Boston, we created an interactive map that highlights
-                neighborhood-level insights. The shaded areas in color represent neighborhoods where we collected survey
-                responses, while black shaded areas indicate regions that we do not have any data. When the user hover over each neighborhood,
-                key details will be shown. Those details include the average number of bedrooms and bathrooms, rent-to-income ratio, cost
-                per person, the distribution of furnished, partially furnished, and unfurnished units, average rent, average utility costs, and a count of
-                amenities offered (e.g. gym access, free laundry, parking, etc.).
-            </p>
-            <p>
-                Our data covers a majority of neighborhoods in the Boston area except for
-                South End, Chinatown, Leather District, and Bay Village. This is because those neighborhoods are
-                not explicitly listed as options in the survey since they are less refered to when asking about locations. 
-                Thus, data from nearby neighborhoods may partially reflect responses from students
-                living in or near those unlisted areas.
-            </p>
-            <p>
-                From a cost perspective, neighborhoods located near Northeastern University, the Financial District, and
-                shopping centers like Newbury Street tend to have higher average rent. However, rent levels can be influenced 
-                by factors such as the number of bedrooms or the availability of amenities, which vary across different listings.
-            </p>
-            <p>
-                The map also display the Cost Per Person (average rent divided by the number of
-                bedrooms), revealing key affordability trends. Neighborhoods like South Boston, Downtown, and
-                the Financial District have the highest per-person housing costs due to their
-                luxury developments, central locations, and access to shopping, nightlife, and transit. 
-                In contrast, areas like Jamaica Plain and Roxbury appear more affordable,
-                possibly due to larger units, shared housing, and community-town areas.
-            </p>
-            <p>
-                When we examine the Rent-to-Income Ratio (average rent divided by
-                average personal income), the map began to look slightly more complex. In neighborhoods like Jamaica Plain,
-                Roxbury, and Mission Hill, the ratio is greater than 1.0, meaning residents are, on average,
-                spending more on rent than they earn monthly, a sign of financial strain. These students may be
-                relying on savings, loans, or outside support, and their situations may be less sustainable over time.
-            </p>
-            <p>
-                On the other hand, more expensive neighborhoods such as Fenway, Back Bay, South Boston
-                Waterfront, Downtown, and Beacon Hill show rent-to-income ratios below 1.0. This shows
-                that although rent is high, residents in these areas likely have higher incomes or more financial
-                resources, and may be sharing costs with multiple roommates.
-            </p>
-            <p>
-                Several black-shaded regions, including Allston, Brighton, and East Boston, reflect
-                missing or invalid rent-to-income data. These are also student-heavy neighborhoods, so their
-                absence highlights survey limitations rather than true student housing trends. Overall, by combining
-                cost-per-person and rent-to-income data, we gain a deeper understanding of both where students
-                are living and the affordability.
-            </p>
-
-    </h2>
+        </h2>
     </div>
 
     <div>
@@ -211,21 +223,25 @@
         <p>
             The red regression line captures the overall trend between personal income and rent. By default, it shows a
             slight upward slope, indicating that as student income increases, total rent tends to increase as well.
-            This indicates that there is a general pattern where students with higher earnings are more likely to live in higher-cost
+            This indicates that there is a general pattern where students with higher earnings are more likely to live
+            in higher-cost
             housing.
         </p>
 
         <p>
-            When looking at neighborhoods where majority of Northeastern University live (The Fenway/Kenmore, Roxbury, Mission Hill, and Jamaica Plain), 
-            the regression line flattens and slightly tilts downward. This shows that in these student-dense areas, 
+            When looking at neighborhoods where majority of Northeastern University live (The Fenway/Kenmore, Roxbury,
+            Mission Hill, and Jamaica Plain),
+            the regression line flattens and slightly tilts downward. This shows that in these student-dense areas,
             higher income does not consistently lead to higher rent.
             In some cases, lower-income students are paying rents comparable to or higher than their higher-income
-            peers. This may reflect limited affordable housing options, forcing students to pay market rates regardless of
+            peers. This may reflect limited affordable housing options, forcing students to pay market rates regardless
+            of
             their income.
         </p>
 
         <p>
-            When South Boston, the Seaport District, the West End, and the North End are added to the data points, the regression line
+            When South Boston, the Seaport District, the West End, and the North End are added to the data points, the
+            regression line
             begins to tilt further downward.
             While these areas tend to have higher average rents, they may also include students with modest incomes who
             rely on roommates, family support, or financial aid to cover costs.
@@ -236,7 +252,8 @@
             In contrast, when we focus only on neighborhoods like Downtown, the Waterfront, Beacon Hill, Back Bay, North
             End, West End, South Boston, and the Seaport District, the regression line becomes positively sloped.
             Data points in this filtered view only appear when average personal income exceeds $5,000, suggesting that
-            these high-rent neighborhoods are financially accessible only to students with substantial income or external
+            these high-rent neighborhoods are financially accessible only to students with substantial income or
+            external
             financial support.
         </p>
 
@@ -254,83 +271,131 @@
     </div>
 
     <h2>Figure 3: Correlation Between Amenities and Average Rent Prices</h2>
-    <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start; padding-top: 20px;">
-        <div style="flex: 1 1 500px; min-width: 300px;">
-            <iframe src="amenity_rent.html" width="100%" height="500" style="border:none;"></iframe>
+    <div>
+        <div class="fig3-img">
+            <iframe src="amenity_rent.html" width="75%" height="600" frameborder="0" scrolling="no"
+                style="border: none;"></iframe>
         </div>
-        <div style="flex: 1 1 500px; min-width: 300px; font-family: Arial, sans-serif; line-height: 1.6;">
+        <div>
             <p>
-                This analysis examines how specific amenities correlate to the total rent, including utilities, as our objective is to analyze affordability and student housing and students care more about how much they’re paying each month in total (not just the base rent). 
-                Each box in the visualization shows the distribution of rent for the surveyed listings with that amenity. 
+                This analysis examines how specific amenities correlate to the total rent, including utilities, as our
+                objective is to analyze affordability and student housing and students care more about how much they’re
+                paying each month in total (not just the base rent).
+                Each box in the visualization shows the distribution of rent for the surveyed listings with that
+                amenity.
                 This graph allows us to see which features may drive higher rental costs for students.
 
             </p>
             <p>
-                Based on the chart, amenities like having laundry facilities with no additional cost to the rent, being pet-friendly, and having access to parking were associated with higher average rent prices. This reflects both the cost of providing these services and the perceived value to students. 
-                For example, parking shows one of the highest average rents, suggesting that convenience and accessibility to this feature come at a premium, especially in an urban area. There is also an outlier in this data, as only one property includes a roof deck. 
-                Because there is no other listing with the same amenity, its average rent cannot be meaningfully compared to other amenities.
+                Based on the chart, amenities like having laundry facilities with no additional cost to the rent, being
+                pet-friendly, and having access to parking were associated with higher average rent prices. This
+                reflects both the cost of providing these services and the perceived value to students.
+                For example, parking shows one of the highest average rents, suggesting that convenience and
+                accessibility to this feature come at a premium, especially in an urban area. There is also an outlier
+                in this data, as only one property includes a roof deck.
+                Because there is no other listing with the same amenity, its average rent cannot be meaningfully
+                compared to other amenities.
             </p>
             <p>
-                However, it's also important to note that amenities are not the only factor influencing rent prices. Other characteristics, like the number of bedrooms and bathrooms in a unit, can significantly impact overall rent, encouraging a deeper and holistic investigation into the impacts of rent, which our other visualizations examine. 
-                For example, laundry facilities with no added cost have a widespread interquartile range from $3,637.50 to $5,625, suggesting that there is a large variance in what renters pay for units with this amenity, which shows that differences in location and other factors can impact rent. 
+                However, it's also important to note that amenities are not the only factor influencing rent prices.
+                Other characteristics, like the number of bedrooms and bathrooms in a unit, can significantly impact
+                overall rent, encouraging a deeper and holistic investigation into the impacts of rent, which our other
+                visualizations examine.
+                For example, laundry facilities with no added cost have a widespread interquartile range from $3,637.50
+                to $5,625, suggesting that there is a large variance in what renters pay for units with this amenity,
+                which shows that differences in location and other factors can impact rent.
             </p>
         </div>
     </div>
-<div>
-    <h2>Figure 4: Rent and Utilities by Neighborhood</h2>
-    
-    <div style="text-align: center;">
-        <iframe src="rent_utilities_by_neighborhood.html" width="80%" height="500" style="border: none; display: block; margin: auto;"></iframe>
+
+    <div>
+        <h2>Figure 4: Rent and Utilities by Neighborhood</h2>
+
+        <div>
+            <iframe src="rent_utilities_by_neighborhood.html" width="100%" height="500" frameborder="0" scrolling="no"
+                style="border: none;"></iframe>
+        </div>
+
+        <p>
+            The stacked bar chart is beneficial for understanding the impact of rental costs and utilities on
+            Northeastern students living off-campus.
+            By separating rent and utility expenses while also showing their combined total, the chart makes it easy to
+            assess the full financial costs associated
+            with different Boston neighborhoods. This is particularly important for students who often need to balance
+            affordability with access to amenities and
+            proximity to campus. The chart clearly reveals that neighborhoods like Back Bay have significantly higher
+            overall housing costs, while areas like South
+            Boston and the West End are comparatively more affordable. Additionally, the chart highlights how utilities
+            contribute to the total cost in specific
+            neighborhoods, such as the Waterfront, where utility expenses appear substantially higher than in other
+            areas. This distinction can help students make more
+            informed decisions by considering the base rent as well as the hidden costs associated with living in
+            certain locations.
+        </p>
+
+        <p>
+            However, it is important to consider other variables that influence rent prices. Factors such as the number
+            of bedrooms, whether the unit is furnished, and
+            the presence of amenities can all significantly impact rent. For example, a higher rent in one neighborhood
+            might reflect larger units or properties with more
+            amenities, which could be more economical when split between multiple roommates. Similarly, utility costs
+            may vary depending on whether or not certain services
+            are included in the rent. Therefore, this stacked bar chart serves as a baseline when attempting to search
+            for neighborhoods, but further evaluations must be
+            done in order to make the final decision.
+        </p>
     </div>
 
-    <p>
-        The stacked bar chart is beneficial for understanding the impact of rental costs and utilities on Northeastern students living off-campus. 
-        By separating rent and utility expenses while also showing their combined total, the chart makes it easy to assess the full financial costs associated
-        with different Boston neighborhoods. This is particularly important for students who often need to balance affordability with access to amenities and
-        proximity to campus. The chart clearly reveals that neighborhoods like Back Bay have significantly higher overall housing costs, while areas like South 
-        Boston and the West End are comparatively more affordable. Additionally, the chart highlights how utilities contribute to the total cost in specific 
-        neighborhoods, such as the Waterfront, where utility expenses appear substantially higher than in other areas. This distinction can help students make more 
-        informed decisions by considering the base rent as well as the hidden costs associated with living in certain locations.
-    </p>
+    <div>
+        <h2>Summary and Future Outlook</h2>
+        <p>
+            The project aimed to understand how rental costs, income levels, and housing amenities impact Northeastern
+            University students living off-campus.
+            The data revealed that students face complex decisions shaped by a combination of affordability, access to
+            features like public transportation, and
+            personal financial limitations. While some neighborhoods appear more affordable on the surface, students
+            living there often report higher rent-to-income
+            ratios, suggesting that lower rents do not always equate to financial ease. Conversely, more expensive
+            neighborhoods tend to have students with higher incomes
+            or shared living arrangements that help offset total costs.
+        </p>
+        <p>
+            Importantly, the findings showed that housing decisions are not purely economic as they are deeply tied to
+            student well-being, convenience, and available resources.
+            Students may pay more for amenities that improve their daily lives, such as on-site laundry or access to
+            transit, even if it means a tighter budget.
+            These trade-offs emphasize the need for better tools and support systems to help students weigh their
+            options effectively.
+        </p>
+        <p>
+            Looking ahead, this research can be a stepping stone for more targeted and student-centered solutions. By
+            scaling up the survey to include a broader sample size
+            and incorporating additional layers of data, such as lease duration, commuting time, and roommate
+            arrangements, there can be a more complete picture of the student
+            housing experience. This information can be used to develop personalized housing recommendation tools that
+            match students with areas that align with both their
+            budgets and priorities.
+        </p>
+        <p>
+            Universities could also leverage this data to provide more comprehensive housing guidance or adjust
+            financial aid policies to reflect the realities of
+            off-campus living. Student services might create affordability calculators or interactive maps that
+            visualize rent-to-income ratios and amenity access by
+            neighborhood. Additionally, partnering with local landlords or city housing initiatives could lead to more
+            student-friendly leasing options and increased
+            transparency in rent pricing. Ultimately, this project serves as a foundation for empowering students to
+            make better-informed housing decisions.
+        </p>
+    </div>
 
-    <p>
-        However, it is important to consider other variables that influence rent prices. Factors such as the number of bedrooms, whether the unit is furnished, and 
-        the presence of amenities can all significantly impact rent. For example, a higher rent in one neighborhood might reflect larger units or properties with more 
-        amenities, which could be more economical when split between multiple roommates. Similarly, utility costs may vary depending on whether or not certain services
-        are included in the rent. Therefore, this stacked bar chart serves as a baseline when attempting to search for neighborhoods, but further evaluations must be 
-        done in order to make the final decision.
-    </p>
-</div>
-
-<div>
-    <h2>Summary and Future Outlook</h2>
-    <p>
-        The project aimed to understand how rental costs, income levels, and housing amenities impact Northeastern University students living off-campus. 
-        The data revealed that students face complex decisions shaped by a combination of affordability, access to features like public transportation, and 
-        personal financial limitations. While some neighborhoods appear more affordable on the surface, students living there often report higher rent-to-income 
-        ratios, suggesting that lower rents do not always equate to financial ease. Conversely, more expensive neighborhoods tend to have students with higher incomes
-        or shared living arrangements that help offset total costs.
-    </p>
-    <p>
-        Importantly, the findings showed that housing decisions are not purely economic as they are deeply tied to student well-being, convenience, and available resources. 
-        Students may pay more for amenities that improve their daily lives, such as on-site laundry or access to transit, even if it means a tighter budget.
-        These trade-offs emphasize the need for better tools and support systems to help students weigh their options effectively.
-    </p>
-    <p>
-        Looking ahead, this research can be a stepping stone for more targeted and student-centered solutions. By scaling up the survey to include a broader sample size 
-        and incorporating additional layers of data, such as lease duration, commuting time, and roommate arrangements, there can be a more complete picture of the student
-        housing experience. This information can be used to develop personalized housing recommendation tools that match students with areas that align with both their 
-        budgets and priorities.
-    </p>
-    <p>
-        Universities could also leverage this data to provide more comprehensive housing guidance or adjust financial aid policies to reflect the realities of 
-        off-campus living. Student services might create affordability calculators or interactive maps that visualize rent-to-income ratios and amenity access by 
-        neighborhood. Additionally, partnering with local landlords or city housing initiatives could lead to more student-friendly leasing options and increased 
-        transparency in rent pricing. Ultimately, this project serves as a foundation for empowering students to make better-informed housing decisions.
-    </p>
-</div>
-
-    
+    <div class="button-container">
+        <button id="button"> Contact Us </button>
+        <script> const navigateButton = document.getElementById("button")
+            navigateButton.addEventListener("click", function () {
+                window.location.href = "contact.html"
+            })
+        </script>
+    </div>
 
 </body>
 
