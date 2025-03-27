@@ -357,31 +357,31 @@
         <iframe src="corr_heatmap.html" width="100%" height="800" frameborder="0" scrolling="no"
             style="border: none;"></iframe>
         <p>
-            This analysis examines how specific amenities correlate to the total rent, including utilities, as our
-            objective is to analyze affordability and student housing and students care more about how much they’re
-            paying each month in total (not just the base rent).
-            Each box in the visualization shows the distribution of rent for the surveyed listings with that amenity.
-            This graph allows us to see which features may drive higher rental costs for students.
+            This correlation heatmap explores how different characteristics, like number of bedrooms, amenities, and average income, 
+            correlate with rental costs, which help interpret affordability across the Boston area. Each cell in the heatmap represents 
+            the strength and direction of the relationship with two variables. Our primary focus is on how these factors influence the 
+            total rent (including utilities), as this figure will allow us to understand the full monthly housing expense of living in 
+            Boston.
 
         </p>
         <p>
-            Based on the chart, amenities like having laundry facilities with no additional cost to the rent, being
-            pet-friendly, and having access to parking were associated with higher average rent prices. This reflects
-            both the cost of providing these services and the perceived value to students.
-            For example, parking shows one of the highest average rents, suggesting that convenience and accessibility
-            to this feature come at a premium, especially in an urban area. There is also an outlier in this data, as
-            only one property includes a roof deck.
-            Because there is no other listing with the same amenity, its average rent cannot be meaningfully compared to
-            other amenities.
+            The heatmap reveals that the number of bedrooms and bathrooms is strongly correlated with the total rent with utilities. 
+            The correlations are both above .6, which aligns with our intuition that larger units are more expensive. 
+            It also aligns with our understanding that more bathrooms might require more utility use, making the overall cost 
+            more expensive. There is also a high positive correlation between the ‘People in Unit’ and ‘Bedrooms’ at .82, which 
+            reinforces the idea that shared housing usually comes with more rooms and, therefore, a higher total rent.
         </p>
         <p>
-            However, it's also important to note that amenities are not the only factor influencing rent prices. Other
-            characteristics, like the number of bedrooms and bathrooms in a unit, can significantly impact overall rent,
-            encouraging a deeper and holistic investigation into the impacts of rent, which our other visualizations
-            examine.
-            For example, laundry facilities with no added cost have a widespread interquartile range from $3,637.50 to
-            $5,625, suggesting that there is a large variance in what renters pay for units with this amenity, which
-            shows that differences in location and other factors can impact rent.
+           The amenity that has the strongest positive correlation between itself and ‘Total Rent w/ Utilities’ is laundry facilities, 
+            which are offered at no additional cost. Although not as strong as other correlations within the map, this could be an 
+            important factor to consider when students are deciding on housing. Additionally, many of the amenities show negative or 
+            weak correlations, likely because there is not enough consistent data, as many amenities other appeared in a handful of 
+            surveyed units, making it hard to draw reliable conclusions regarding this. Also, as mentioned before, rent is influenced 
+            by multiple overlapping factors like unit size and location, which can have more influence over a single amenity. This is 
+            confirmed in the box plot above, where many amenities have a large interquartile range in the rent distribution. This 
+            correlation heatmap enhances the interpretation of our other visualizations by providing context for other trends that we 
+            want to explore. For example, with additional context, we can look at our other visualizations with more of a holistic view 
+            and understanding.
         </p>
     </div>
 
