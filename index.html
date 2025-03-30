@@ -75,7 +75,8 @@
                 <img src="table 1.png" width="600">
             </div>
             <p>
-                Table 1 introduces the key trends in Boston’s rental market, demonstrating an increasing vacancy rate in 2024
+                Table 1 introduces the key trends in Boston’s rental market, demonstrating an increasing vacancy rate in
+                2024
                 and
                 rising average rents (three-bedroom units have an average rent of $4,182).
             </p>
@@ -85,7 +86,8 @@
                 <img src="figure 1.png" width="500">
             </div>
             <p>
-                Figure 1 introduces the relationship between rent growth, median income changes, and the affordability index in
+                Figure 1 introduces the relationship between rent growth, median income changes, and the affordability
+                index in
                 Boston.
                 The declining affordability index in recent years demonstrates that rising rates are outpacing income
                 growth,
@@ -103,10 +105,11 @@
     </div>
 
     <div class="data-info">
-        <h2>Data Collection Process: SHOW DATA COLUMNS</h2>
+        <h2>Data Collection Process: </h2>
         <p>
             To explore the impact of rental costs and housing amenities on students at Northeastern University, we
-            conducted a survey targeting only students living off-campus. The survey was distributed within our
+            conducted a survey targeting only students living off-campus. The survey was distributed with the
+            Northeastern community and our
             networks, including friends and peers, ensuring a diverse set of responses across different living
             situations. To encourage participation, we structured the survey to only include essential questions
             that would provide meaningful insights while avoiding unnecessary complexity.
@@ -123,14 +126,22 @@
         </p>
         <iframe src="table.html" width="100%" height="400" style="border:1px solid #ccc;"></iframe>
         <p>
-            The dataset captures the off-campus housing experiences of Northeastern University students through a variety of features. 
-            Rental Type describes the category of housing, such as a standard apartment or a luxury apartment with additional services.
-            Bedrooms and Bathrooms indicate the number of each within the unit, while Furnished reflects whether the unit is furnished, 
-            partially furnished, or unfurnished. Utilities Included specifies if any utilities are bundled with the rent. Neighborhood refers 
-            to the area in Boston where the unit is located, and Proximity to Transit measures access to public transportation. Rent and Utilities 
-            represent monthly costs. Personal Income Avg indicates a student's monthly income to assess affordability. People in Unit shows the number 
-            of occupants per residence. The remaining columns, such as Parking, roof deck, Game room, Concierge/Doorman, Pet-friendly, Gym, Mail Room, 
-            Laundry facilities (no need to pay), and Pool, are binary indicators of specific amenities, offering insight into the lifestyle and housing
+            The dataset captures the off-campus housing experiences of Northeastern University students through a
+            variety of features.
+            Rental Type describes the category of housing, such as a standard apartment or a luxury apartment with
+            additional services.
+            Bedrooms and Bathrooms indicate the number of each within the unit, while Furnished reflects whether the
+            unit is furnished,
+            partially furnished, or unfurnished. Utilities Included specifies if any utilities are bundled with the
+            rent. Neighborhood refers
+            to the area in Boston where the unit is located, and Proximity to Transit measures access to public
+            transportation. Rent and Utilities
+            represent monthly costs. Personal Income Avg indicates a student's monthly income to assess affordability.
+            People in Unit shows the number
+            of occupants per residence. The remaining columns, such as Parking, roof deck, Game room, Concierge/Doorman,
+            Pet-friendly, Gym, Mail Room,
+            Laundry facilities (no need to pay), and Pool, are binary indicators of specific amenities, offering insight
+            into the lifestyle and housing
             preferences of students.
         </p>
         <p>
@@ -150,9 +161,7 @@
         </p>
         <p>
             To prepare the categorical data for statistical models, we will convert all categorical data into
-            numerical formats by applying dummy encoding to variables like “Neighborhood,” “Amenities,” and
-            “Furnishing Type.” Additionally, we will use ordinal encoding for features like proximity to public
-            transportation. Lastly, we will normalize the monthly income values by using midpoint values to ensure
+            numerical formats by applying dummy encoding to variables like “Amenities”. Lastly, we will normalize the monthly income values by using midpoint values to ensure
             consistency in numerical
 
     </div>
@@ -369,30 +378,46 @@
         <iframe src="corr_heatmap.html" width="100%" height="800" frameborder="0" scrolling="no"
             style="border: none;"></iframe>
         <p>
-            This correlation heatmap explores how different characteristics, like number of bedrooms, amenities, and average income, 
-            correlate with rental costs, which help interpret affordability across the Boston area. Each cell in the heatmap represents 
-            the strength and direction of the relationship with two variables. Our primary focus is on how these factors influence the 
-            total rent (including utilities), as this figure will allow us to understand the full monthly housing expense of living in 
+            This correlation heatmap explores how different characteristics, like number of bedrooms, amenities, and
+            average income,
+            correlate with rental costs, which help interpret affordability across the Boston area. Each cell in the
+            heatmap represents
+            the strength and direction of the relationship with two variables. Our primary focus is on how these factors
+            influence the
+            total rent (including utilities), as this figure will allow us to understand the full monthly housing
+            expense of living in
             Boston.
 
         </p>
         <p>
-            The heatmap reveals that the number of bedrooms and bathrooms is strongly correlated with the total rent with utilities. 
-            The correlations are both above .6, which aligns with our intuition that larger units are more expensive. 
-            It also aligns with our understanding that more bathrooms might require more utility use, making the overall cost 
-            more expensive. There is also a high positive correlation between the ‘People in Unit’ and ‘Bedrooms’ at .82, which 
+            The heatmap reveals that the number of bedrooms and bathrooms is strongly correlated with the total rent
+            with utilities.
+            The correlations are both above .6, which aligns with our intuition that larger units are more expensive.
+            It also aligns with our understanding that more bathrooms might require more utility use, making the overall
+            cost
+            more expensive. There is also a high positive correlation between the ‘People in Unit’ and ‘Bedrooms’ at
+            .82, which
             reinforces the idea that shared housing usually comes with more rooms and, therefore, a higher total rent.
         </p>
         <p>
-           The amenity that has the strongest positive correlation between itself and ‘Total Rent w/ Utilities’ is laundry facilities, 
-            which are offered at no additional cost. Although not as strong as other correlations within the map, this could be an 
-            important factor to consider when students are deciding on housing. Additionally, many of the amenities show negative or 
-            weak correlations, likely because there is not enough consistent data, as many amenities other appeared in a handful of 
-            surveyed units, making it hard to draw reliable conclusions regarding this. Also, as mentioned before, rent is influenced 
-            by multiple overlapping factors like unit size and location, which can have more influence over a single amenity. This is 
-            confirmed in the box plot above, where many amenities have a large interquartile range in the rent distribution. This 
-            correlation heatmap enhances the interpretation of our other visualizations by providing context for other trends that we 
-            want to explore. For example, with additional context, we can look at our other visualizations with more of a holistic view 
+            The amenity that has the strongest positive correlation between itself and ‘Total Rent w/ Utilities’ is
+            laundry facilities,
+            which are offered at no additional cost. Although not as strong as other correlations within the map, this
+            could be an
+            important factor to consider when students are deciding on housing. Additionally, many of the amenities show
+            negative or
+            weak correlations, likely because there is not enough consistent data, as many amenities other appeared in a
+            handful of
+            surveyed units, making it hard to draw reliable conclusions regarding this. Also, as mentioned before, rent
+            is influenced
+            by multiple overlapping factors like unit size and location, which can have more influence over a single
+            amenity. This is
+            confirmed in the box plot above, where many amenities have a large interquartile range in the rent
+            distribution. This
+            correlation heatmap enhances the interpretation of our other visualizations by providing context for other
+            trends that we
+            want to explore. For example, with additional context, we can look at our other visualizations with more of
+            a holistic view
             and understanding.
         </p>
     </div>
