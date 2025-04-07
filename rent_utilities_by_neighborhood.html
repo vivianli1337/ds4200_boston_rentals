@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "stroke": null}, "axisX": {"labelAngle": -40}, "title": {"anchor": "start", "color": "black", "fontSize": 18}}, "data": {"name": "data-287443dbdaa1a704dc831ddb10e8499f"}, "mark": {"type": "bar"}, "background": "#FFFFFF", "encoding": {"color": {"field": "Cost Type", "scale": {"domain": ["Rent", "Utilities"], "range": ["#5a93f2", "#0a357f"]}, "title": "Cost Type", "type": "nominal"}, "tooltip": [{"field": "Neighborhood", "type": "nominal"}, {"field": "Cost Type", "type": "nominal"}, {"field": "Cost", "format": ",.0f", "type": "quantitative"}, {"field": "Percent of Total", "format": ".1f", "title": "Percent of Total Cost (%)", "type": "quantitative"}], "x": {"field": "Neighborhood", "sort": ["South Boston", "West End", "North End", "Waterfront", "Seaport District", "Beacon Hill", "The Fenway/Kenmore", "Downtown", "Mission Hill", "Jamaica Plain (JP)", "Roxbury", "BackBay"], "title": "Neighborhood", "type": "nominal"}, "y": {"field": "Cost", "stack": "zero", "title": "Average Monthly Housing Cost", "type": "quantitative"}}, "title": "Average Rent and Utility Costs by Neighborhood", "width": 750, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-287443dbdaa1a704dc831ddb10e8499f": [{"Neighborhood": "BackBay", "Total": 5503.571428571428, "Rent %": 97.3393900064893, "Utilities %": 2.6606099935107075, "Cost Type": "Rent", "Cost": 5357.142857142857, "Percent of Total": 97.3393900064893}, {"Neighborhood": "Beacon Hill", "Total": 4008.3333333333335, "Rent %": 95.63409563409564, "Utilities %": 4.365904365904365, "Cost Type": "Rent", "Cost": 3833.3333333333335, "Percent of Total": 95.63409563409564}, {"Neighborhood": "Downtown", "Total": 4549.090909090909, "Rent %": 96.9224620303757, "Utilities %": 3.077537969624301, "Cost Type": "Rent", "Cost": 4409.090909090909, "Percent of Total": 96.9224620303757}, {"Neighborhood": "Jamaica Plain (JP)", "Total": 4650.0, "Rent %": 96.7741935483871, "Utilities %": 3.225806451612903, "Cost Type": "Rent", "Cost": 4500.0, "Percent of Total": 96.7741935483871}, {"Neighborhood": "Mission Hill", "Total": 4564.431818181818, "Rent %": 94.60502402469689, "Utilities %": 5.39497597530311, "Cost Type": "Rent", "Cost": 4318.181818181818, "Percent of Total": 94.60502402469689}, {"Neighborhood": "North End", "Total": 2991.666666666667, "Rent %": 94.7075208913649, "Utilities %": 5.2924791086350975, "Cost Type": "Rent", "Cost": 2833.3333333333335, "Percent of Total": 94.7075208913649}, {"Neighborhood": "Roxbury", "Total": 5160.714285714285, "Rent %": 96.88581314878894, "Utilities %": 3.1141868512110733, "Cost Type": "Rent", "Cost": 5000.0, "Percent of Total": 96.88581314878894}, {"Neighborhood": "Seaport District", "Total": 3675.0, "Rent %": 95.23809523809523, "Utilities %": 4.761904761904762, "Cost Type": "Rent", "Cost": 3500.0, "Percent of Total": 95.23809523809523}, {"Neighborhood": "South Boston", "Total": 2675.0, "Rent %": 93.45794392523365, "Utilities %": 6.5420560747663545, "Cost Type": "Rent", "Cost": 2500.0, "Percent of Total": 93.45794392523365}, {"Neighborhood": "The Fenway/Kenmore", "Total": 4257.282608695652, "Rent %": 92.42474532131641, "Utilities %": 7.575254678683587, "Cost Type": "Rent", "Cost": 3934.782608695652, "Percent of Total": 92.42474532131641}, {"Neighborhood": "Waterfront", "Total": 3600.0, "Rent %": 78.70370370370371, "Utilities %": 21.296296296296298, "Cost Type": "Rent", "Cost": 2833.3333333333335, "Percent of Total": 78.70370370370371}, {"Neighborhood": "West End", "Total": 2975.0, "Rent %": 95.23809523809524, "Utilities %": 4.761904761904762, "Cost Type": "Rent", "Cost": 2833.3333333333335, "Percent of Total": 95.23809523809524}, {"Neighborhood": "BackBay", "Total": 5503.571428571428, "Rent %": 97.3393900064893, "Utilities %": 2.6606099935107075, "Cost Type": "Utilities", "Cost": 146.42857142857142, "Percent of Total": 2.6606099935107075}, {"Neighborhood": "Beacon Hill", "Total": 4008.3333333333335, "Rent %": 95.63409563409564, "Utilities %": 4.365904365904365, "Cost Type": "Utilities", "Cost": 175.0, "Percent of Total": 4.365904365904365}, {"Neighborhood": "Downtown", "Total": 4549.090909090909, "Rent %": 96.9224620303757, "Utilities %": 3.077537969624301, "Cost Type": "Utilities", "Cost": 140.0, "Percent of Total": 3.077537969624301}, {"Neighborhood": "Jamaica Plain (JP)", "Total": 4650.0, "Rent %": 96.7741935483871, "Utilities %": 3.225806451612903, "Cost Type": "Utilities", "Cost": 150.0, "Percent of Total": 3.225806451612903}, {"Neighborhood": "Mission Hill", "Total": 4564.431818181818, "Rent %": 94.60502402469689, "Utilities %": 5.39497597530311, "Cost Type": "Utilities", "Cost": 246.25, "Percent of Total": 5.39497597530311}, {"Neighborhood": "North End", "Total": 2991.666666666667, "Rent %": 94.7075208913649, "Utilities %": 5.2924791086350975, "Cost Type": "Utilities", "Cost": 158.33333333333334, "Percent of Total": 5.2924791086350975}, {"Neighborhood": "Roxbury", "Total": 5160.714285714285, "Rent %": 96.88581314878894, "Utilities %": 3.1141868512110733, "Cost Type": "Utilities", "Cost": 160.71428571428572, "Percent of Total": 3.1141868512110733}, {"Neighborhood": "Seaport District", "Total": 3675.0, "Rent %": 95.23809523809523, "Utilities %": 4.761904761904762, "Cost Type": "Utilities", "Cost": 175.0, "Percent of Total": 4.761904761904762}, {"Neighborhood": "South Boston", "Total": 2675.0, "Rent %": 93.45794392523365, "Utilities %": 6.5420560747663545, "Cost Type": "Utilities", "Cost": 175.0, "Percent of Total": 6.5420560747663545}, {"Neighborhood": "The Fenway/Kenmore", "Total": 4257.282608695652, "Rent %": 92.42474532131641, "Utilities %": 7.575254678683587, "Cost Type": "Utilities", "Cost": 322.5, "Percent of Total": 7.575254678683587}, {"Neighborhood": "Waterfront", "Total": 3600.0, "Rent %": 78.70370370370371, "Utilities %": 21.296296296296298, "Cost Type": "Utilities", "Cost": 766.6666666666666, "Percent of Total": 21.296296296296298}, {"Neighborhood": "West End", "Total": 2975.0, "Rent %": 95.23809523809524, "Utilities %": 4.761904761904762, "Cost Type": "Utilities", "Cost": 141.66666666666666, "Percent of Total": 4.761904761904762}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
